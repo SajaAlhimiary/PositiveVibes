@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A534F7A529700E5F00BBAD85 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A534F7A329700E5F00BBAD85 /* data.json */; };
 		A53AB919296B339A006C7874 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AB918296B339A006C7874 /* Quote.swift */; };
 		A5890EA5296C0B7700CF2061 /* VTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5890EA4296C0B7700CF2061 /* VTabView.swift */; };
 		ECAFD4392966B8B000C14DE5 /* MotivationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4382966B8B000C14DE5 /* MotivationAppApp.swift */; };
@@ -20,7 +21,6 @@
 		ECAFD485296C0CB700C14DE5 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD484296C0CB700C14DE5 /* UserDefault.swift */; };
 		ECAFD487296C108400C14DE5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD486296C108400C14DE5 /* HomeViewModel.swift */; };
 		ECAFD48D296C998300C14DE5 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD48C296C998300C14DE5 /* Favorites.swift */; };
-		ECAFD496296D675300C14DE5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD494296D675300C14DE5 /* data.json */; };
 		ECAFD4C9296DF7CA00C14DE5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAFD4C8296DF7CA00C14DE5 /* WidgetKit.framework */; };
 		ECAFD4CB296DF7CA00C14DE5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAFD4CA296DF7CA00C14DE5 /* SwiftUI.framework */; };
 		ECAFD4CE296DF7CA00C14DE5 /* QuoteWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4CD296DF7CA00C14DE5 /* QuoteWidgetBundle.swift */; };
@@ -73,8 +73,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A534F7A429700E5F00BBAD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = "../../../OldVersions/MotivationApp2 2/MotivationApp/data/Base.lproj/data.json"; sourceTree = "<group>"; };
 		A53AB918296B339A006C7874 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		A5890EA4296C0B7700CF2061 /* VTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTabView.swift; sourceTree = "<group>"; };
+		A59D91CB29700E7B00729F52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = "../../../OldVersions/MotivationApp2 2/MotivationApp/data/en.lproj/data.json"; sourceTree = "<group>"; };
+		A59D91CE29700EAF00729F52 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ar; path = "../../../OldVersions/MotivationApp2 2/MotivationApp/data/ar.lproj/data.json"; sourceTree = "<group>"; };
 		ECAFD4352966B8B000C14DE5 /* MotivationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAFD4382966B8B000C14DE5 /* MotivationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationAppApp.swift; sourceTree = "<group>"; };
 		ECAFD43C2966B8B100C14DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,8 +92,6 @@
 		ECAFD484296C0CB700C14DE5 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		ECAFD486296C108400C14DE5 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		ECAFD48C296C998300C14DE5 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
-		ECAFD495296D675300C14DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = ../../../../Downloads/MotivationApp2/MotivationApp/data/en.lproj/data.json; sourceTree = "<group>"; };
-		ECAFD497296D675800C14DE5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ar; path = ../../../../Downloads/MotivationApp2/MotivationApp/data/ar.lproj/data.json; sourceTree = "<group>"; };
 		ECAFD4C6296DF7CA00C14DE5 /* QuoteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuoteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAFD4C8296DF7CA00C14DE5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		ECAFD4CA296DF7CA00C14DE5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -141,7 +142,7 @@
 		A53AB90D296AAE5F006C7874 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				ECAFD494296D675300C14DE5 /* data.json */,
+				A534F7A329700E5F00BBAD85 /* data.json */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -375,7 +376,7 @@
 				ECAFD4402966B8B100C14DE5 /* Preview Assets.xcassets in Resources */,
 				ECAFD4F3296FED3D00C14DE5 /* Localizable.strings in Resources */,
 				ECAFD43D2966B8B100C14DE5 /* Assets.xcassets in Resources */,
-				ECAFD496296D675300C14DE5 /* data.json in Resources */,
+				A534F7A529700E5F00BBAD85 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,11 +471,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECAFD494296D675300C14DE5 /* data.json */ = {
+		A534F7A329700E5F00BBAD85 /* data.json */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECAFD495296D675300C14DE5 /* en */,
-				ECAFD497296D675800C14DE5 /* ar */,
+				A534F7A429700E5F00BBAD85 /* Base */,
+				A59D91CB29700E7B00729F52 /* en */,
+				A59D91CE29700EAF00729F52 /* ar */,
 			);
 			name = data.json;
 			sourceTree = "<group>";
