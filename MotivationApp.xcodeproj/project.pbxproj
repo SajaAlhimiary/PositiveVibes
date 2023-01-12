@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A53AB919296B339A006C7874 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AB918296B339A006C7874 /* Quote.swift */; };
+		A5890EA5296C0B7700CF2061 /* VTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5890EA4296C0B7700CF2061 /* VTabView.swift */; };
 		ECAFD4392966B8B000C14DE5 /* MotivationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4382966B8B000C14DE5 /* MotivationAppApp.swift */; };
-		ECAFD43B2966B8B000C14DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD43A2966B8B000C14DE5 /* ContentView.swift */; };
 		ECAFD43D2966B8B100C14DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD43C2966B8B100C14DE5 /* Assets.xcassets */; };
 		ECAFD4402966B8B100C14DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD43F2966B8B100C14DE5 /* Preview Assets.xcassets */; };
 		ECAFD44A2966B8B100C14DE5 /* MotivationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4492966B8B100C14DE5 /* MotivationAppTests.swift */; };
 		ECAFD4542966B8B100C14DE5 /* MotivationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4532966B8B100C14DE5 /* MotivationAppUITests.swift */; };
 		ECAFD4562966B8B100C14DE5 /* MotivationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4552966B8B100C14DE5 /* MotivationAppUITestsLaunchTests.swift */; };
+		ECAFD475296C02EA00C14DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD474296C02EA00C14DE5 /* ContentView.swift */; };
+		ECAFD483296C0CB400C14DE5 /* ChangeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD482296C0CB400C14DE5 /* ChangeBackground.swift */; };
+		ECAFD485296C0CB700C14DE5 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD484296C0CB700C14DE5 /* UserDefault.swift */; };
+		ECAFD487296C108400C14DE5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD486296C108400C14DE5 /* HomeViewModel.swift */; };
+		ECAFD48D296C998300C14DE5 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD48C296C998300C14DE5 /* Favorites.swift */; };
+		ECAFD496296D675300C14DE5 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD494296D675300C14DE5 /* data.json */; };
+		ECAFD4C9296DF7CA00C14DE5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAFD4C8296DF7CA00C14DE5 /* WidgetKit.framework */; };
+		ECAFD4CB296DF7CA00C14DE5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAFD4CA296DF7CA00C14DE5 /* SwiftUI.framework */; };
+		ECAFD4CE296DF7CA00C14DE5 /* QuoteWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4CD296DF7CA00C14DE5 /* QuoteWidgetBundle.swift */; };
+		ECAFD4D0296DF7CA00C14DE5 /* QuoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4CF296DF7CA00C14DE5 /* QuoteWidget.swift */; };
+		ECAFD4D2296DF7CC00C14DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD4D1296DF7CC00C14DE5 /* Assets.xcassets */; };
+		ECAFD4D6296DF7CC00C14DE5 /* QuoteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ECAFD4C6296DF7CA00C14DE5 /* QuoteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ECAFD4DC296EAD7300C14DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD43C2966B8B100C14DE5 /* Assets.xcassets */; };
+		ECAFD4E6296F3B3600C14DE5 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4E5296F3B3600C14DE5 /* CellView.swift */; };
+		ECAFD4F3296FED3D00C14DE5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECAFD4F5296FED3D00C14DE5 /* Localizable.strings */; };
+		ECAFD4F7296FEED800C14DE5 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4F6296FEED800C14DE5 /* SplashScreen.swift */; };
+		ECAFD4F9296FF58B00C14DE5 /* Arrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAFD4F8296FF58A00C14DE5 /* Arrows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +49,34 @@
 			remoteGlobalIDString = ECAFD4342966B8B000C14DE5;
 			remoteInfo = MotivationApp;
 		};
+		ECAFD4D4296DF7CC00C14DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAFD42D2966B8B000C14DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAFD4C5296DF7CA00C14DE5;
+			remoteInfo = QuoteWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ECAFD4D7296DF7CC00C14DE5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ECAFD4D6296DF7CC00C14DE5 /* QuoteWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A53AB918296B339A006C7874 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		A5890EA4296C0B7700CF2061 /* VTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTabView.swift; sourceTree = "<group>"; };
 		ECAFD4352966B8B000C14DE5 /* MotivationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotivationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAFD4382966B8B000C14DE5 /* MotivationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationAppApp.swift; sourceTree = "<group>"; };
-		ECAFD43A2966B8B000C14DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECAFD43C2966B8B100C14DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECAFD43F2966B8B100C14DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECAFD4452966B8B100C14DE5 /* MotivationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +84,24 @@
 		ECAFD44F2966B8B100C14DE5 /* MotivationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotivationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAFD4532966B8B100C14DE5 /* MotivationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationAppUITests.swift; sourceTree = "<group>"; };
 		ECAFD4552966B8B100C14DE5 /* MotivationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECAFD474296C02EA00C14DE5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECAFD482296C0CB400C14DE5 /* ChangeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeBackground.swift; sourceTree = "<group>"; };
+		ECAFD484296C0CB700C14DE5 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		ECAFD486296C108400C14DE5 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ECAFD48C296C998300C14DE5 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		ECAFD495296D675300C14DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = ../../../../Downloads/MotivationApp2/MotivationApp/data/en.lproj/data.json; sourceTree = "<group>"; };
+		ECAFD497296D675800C14DE5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ar; path = ../../../../Downloads/MotivationApp2/MotivationApp/data/ar.lproj/data.json; sourceTree = "<group>"; };
+		ECAFD4C6296DF7CA00C14DE5 /* QuoteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuoteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAFD4C8296DF7CA00C14DE5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		ECAFD4CA296DF7CA00C14DE5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		ECAFD4CD296DF7CA00C14DE5 /* QuoteWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidgetBundle.swift; sourceTree = "<group>"; };
+		ECAFD4CF296DF7CA00C14DE5 /* QuoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidget.swift; sourceTree = "<group>"; };
+		ECAFD4D1296DF7CC00C14DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAFD4D3296DF7CC00C14DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAFD4E5296F3B3600C14DE5 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		ECAFD4F4296FED3D00C14DE5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ECAFD4F6296FEED800C14DE5 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		ECAFD4F8296FF58A00C14DE5 /* Arrows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +126,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECAFD4C3296DF7CA00C14DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAFD4CB296DF7CA00C14DE5 /* SwiftUI.framework in Frameworks */,
+				ECAFD4C9296DF7CA00C14DE5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A53AB90D296AAE5F006C7874 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				ECAFD494296D675300C14DE5 /* data.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A53AB914296B3309006C7874 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A53AB918296B339A006C7874 /* Quote.swift */,
+				ECAFD48C296C998300C14DE5 /* Favorites.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ECAFD42C2966B8B000C14DE5 = {
 			isa = PBXGroup;
 			children = (
 				ECAFD4372966B8B000C14DE5 /* MotivationApp */,
 				ECAFD4482966B8B100C14DE5 /* MotivationAppTests */,
 				ECAFD4522966B8B100C14DE5 /* MotivationAppUITests */,
+				ECAFD4CC296DF7CA00C14DE5 /* QuoteWidget */,
+				ECAFD4C7296DF7CA00C14DE5 /* Frameworks */,
 				ECAFD4362966B8B000C14DE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +173,7 @@
 				ECAFD4352966B8B000C14DE5 /* MotivationApp.app */,
 				ECAFD4452966B8B100C14DE5 /* MotivationAppTests.xctest */,
 				ECAFD44F2966B8B100C14DE5 /* MotivationAppUITests.xctest */,
+				ECAFD4C6296DF7CA00C14DE5 /* QuoteWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +181,20 @@
 		ECAFD4372966B8B000C14DE5 /* MotivationApp */ = {
 			isa = PBXGroup;
 			children = (
+				ECAFD4F6296FEED800C14DE5 /* SplashScreen.swift */,
+				ECAFD474296C02EA00C14DE5 /* ContentView.swift */,
+				ECAFD4F8296FF58A00C14DE5 /* Arrows.swift */,
+				ECAFD484296C0CB700C14DE5 /* UserDefault.swift */,
+				ECAFD4E5296F3B3600C14DE5 /* CellView.swift */,
+				ECAFD482296C0CB400C14DE5 /* ChangeBackground.swift */,
+				A5890EA4296C0B7700CF2061 /* VTabView.swift */,
+				A53AB914296B3309006C7874 /* Models */,
+				A53AB90D296AAE5F006C7874 /* data */,
 				ECAFD4382966B8B000C14DE5 /* MotivationAppApp.swift */,
-				ECAFD43A2966B8B000C14DE5 /* ContentView.swift */,
+				ECAFD486296C108400C14DE5 /* HomeViewModel.swift */,
 				ECAFD43C2966B8B100C14DE5 /* Assets.xcassets */,
 				ECAFD43E2966B8B100C14DE5 /* Preview Content */,
+				ECAFD4F5296FED3D00C14DE5 /* Localizable.strings */,
 			);
 			path = MotivationApp;
 			sourceTree = "<group>";
@@ -127,6 +224,26 @@
 			path = MotivationAppUITests;
 			sourceTree = "<group>";
 		};
+		ECAFD4C7296DF7CA00C14DE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECAFD4C8296DF7CA00C14DE5 /* WidgetKit.framework */,
+				ECAFD4CA296DF7CA00C14DE5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAFD4CC296DF7CA00C14DE5 /* QuoteWidget */ = {
+			isa = PBXGroup;
+			children = (
+				ECAFD4CD296DF7CA00C14DE5 /* QuoteWidgetBundle.swift */,
+				ECAFD4CF296DF7CA00C14DE5 /* QuoteWidget.swift */,
+				ECAFD4D1296DF7CC00C14DE5 /* Assets.xcassets */,
+				ECAFD4D3296DF7CC00C14DE5 /* Info.plist */,
+			);
+			path = QuoteWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +254,12 @@
 				ECAFD4312966B8B000C14DE5 /* Sources */,
 				ECAFD4322966B8B000C14DE5 /* Frameworks */,
 				ECAFD4332966B8B000C14DE5 /* Resources */,
+				ECAFD4D7296DF7CC00C14DE5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ECAFD4D5296DF7CC00C14DE5 /* PBXTargetDependency */,
 			);
 			name = MotivationApp;
 			productName = MotivationApp;
@@ -183,6 +302,23 @@
 			productReference = ECAFD44F2966B8B100C14DE5 /* MotivationAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ECAFD4C5296DF7CA00C14DE5 /* QuoteWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAFD4DA296DF7CC00C14DE5 /* Build configuration list for PBXNativeTarget "QuoteWidgetExtension" */;
+			buildPhases = (
+				ECAFD4C2296DF7CA00C14DE5 /* Sources */,
+				ECAFD4C3296DF7CA00C14DE5 /* Frameworks */,
+				ECAFD4C4296DF7CA00C14DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuoteWidgetExtension;
+			productName = QuoteWidgetExtension;
+			productReference = ECAFD4C6296DF7CA00C14DE5 /* QuoteWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +340,9 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = ECAFD4342966B8B000C14DE5;
 					};
+					ECAFD4C5296DF7CA00C14DE5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = ECAFD4302966B8B000C14DE5 /* Build configuration list for PBXProject "MotivationApp" */;
@@ -213,6 +352,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = ECAFD42C2966B8B000C14DE5;
 			productRefGroup = ECAFD4362966B8B000C14DE5 /* Products */;
@@ -222,6 +362,7 @@
 				ECAFD4342966B8B000C14DE5 /* MotivationApp */,
 				ECAFD4442966B8B100C14DE5 /* MotivationAppTests */,
 				ECAFD44E2966B8B100C14DE5 /* MotivationAppUITests */,
+				ECAFD4C5296DF7CA00C14DE5 /* QuoteWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +373,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECAFD4402966B8B100C14DE5 /* Preview Assets.xcassets in Resources */,
+				ECAFD4F3296FED3D00C14DE5 /* Localizable.strings in Resources */,
 				ECAFD43D2966B8B100C14DE5 /* Assets.xcassets in Resources */,
+				ECAFD496296D675300C14DE5 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +393,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECAFD4C4296DF7CA00C14DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAFD4DC296EAD7300C14DE5 /* Assets.xcassets in Resources */,
+				ECAFD4D2296DF7CC00C14DE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +409,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECAFD43B2966B8B000C14DE5 /* ContentView.swift in Sources */,
+				A53AB919296B339A006C7874 /* Quote.swift in Sources */,
+				ECAFD4F9296FF58B00C14DE5 /* Arrows.swift in Sources */,
+				ECAFD475296C02EA00C14DE5 /* ContentView.swift in Sources */,
+				ECAFD4E6296F3B3600C14DE5 /* CellView.swift in Sources */,
+				ECAFD487296C108400C14DE5 /* HomeViewModel.swift in Sources */,
+				ECAFD48D296C998300C14DE5 /* Favorites.swift in Sources */,
+				ECAFD4F7296FEED800C14DE5 /* SplashScreen.swift in Sources */,
+				ECAFD485296C0CB700C14DE5 /* UserDefault.swift in Sources */,
 				ECAFD4392966B8B000C14DE5 /* MotivationAppApp.swift in Sources */,
+				A5890EA5296C0B7700CF2061 /* VTabView.swift in Sources */,
+				ECAFD483296C0CB400C14DE5 /* ChangeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +440,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECAFD4C2296DF7CA00C14DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAFD4D0296DF7CA00C14DE5 /* QuoteWidget.swift in Sources */,
+				ECAFD4CE296DF7CA00C14DE5 /* QuoteWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,7 +462,32 @@
 			target = ECAFD4342966B8B000C14DE5 /* MotivationApp */;
 			targetProxy = ECAFD4502966B8B100C14DE5 /* PBXContainerItemProxy */;
 		};
+		ECAFD4D5296DF7CC00C14DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAFD4C5296DF7CA00C14DE5 /* QuoteWidgetExtension */;
+			targetProxy = ECAFD4D4296DF7CC00C14DE5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECAFD494296D675300C14DE5 /* data.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAFD495296D675300C14DE5 /* en */,
+				ECAFD497296D675800C14DE5 /* ar */,
+			);
+			name = data.json;
+			sourceTree = "<group>";
+		};
+		ECAFD4F5296FED3D00C14DE5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAFD4F4296FED3D00C14DE5 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECAFD4572966B8B100C14DE5 /* Debug */ = {
@@ -412,13 +607,16 @@
 		ECAFD45A2966B8B100C14DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MotivationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 92C697WDFT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Positive Vibes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,13 +638,16 @@
 		ECAFD45B2966B8B100C14DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MotivationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 92C697WDFT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Positive Vibes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -537,6 +738,60 @@
 			};
 			name = Release;
 		};
+		ECAFD4D8296DF7CC00C14DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92C697WDFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuoteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Celebrate.MotivationApp.QuoteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAFD4D9296DF7CC00C14DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92C697WDFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuoteWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Celebrate.MotivationApp.QuoteWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,6 +827,15 @@
 			buildConfigurations = (
 				ECAFD4602966B8B100C14DE5 /* Debug */,
 				ECAFD4612966B8B100C14DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAFD4DA296DF7CC00C14DE5 /* Build configuration list for PBXNativeTarget "QuoteWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAFD4D8296DF7CC00C14DE5 /* Debug */,
+				ECAFD4D9296DF7CC00C14DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
