@@ -1,6 +1,7 @@
 # PositiveVibes
 
-![appstore](https://user-images.githubusercontent.com/98238090/212410024-9e75c826-176e-4329-9581-c4f4bb28f184.png)
+![29](https://user-images.githubusercontent.com/98238090/212410079-2d74fb85-8768-47d3-b451-11ef17ee282f.png)
+
 
 ## Our Big Idea:
 ### Inclusion
