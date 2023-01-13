@@ -16,8 +16,8 @@
 ### A platform for Providing words of encouragement for stressed people who need to be motivated so that they keep being optimistic and be able to accomplish whatever they want to.
 
 ## Technologies & Tools:
-### -swifui
-### -widgetkit
+### - Swifui
+### - Widgetkit
 
 
 
