@@ -1,5 +1,6 @@
 # PositiveVibes
-![knockout 16](https://user-images.githubusercontent.com/98238090/212409954-cf79dd70-8a3d-4341-b766-a93d572248f4.PNG)
+
+![appstore](https://user-images.githubusercontent.com/98238090/212410024-9e75c826-176e-4329-9581-c4f4bb28f184.png)
 
 ## Our Big Idea:
 ### Inclusion
