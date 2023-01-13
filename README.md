@@ -1,6 +1,6 @@
 # PositiveVibes
 
-![29](https://user-images.githubusercontent.com/98238090/212410079-2d74fb85-8768-47d3-b451-11ef17ee282f.png)
+![60](https://user-images.githubusercontent.com/98238090/212410151-c4d1c077-651b-4ad0-9e16-a3e845166369.png)
 
 
 ## Our Big Idea:
