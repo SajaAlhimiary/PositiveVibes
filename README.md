@@ -1,6 +1,7 @@
 # PositiveVibes
 
-![knockout 16](https://user-images.githubusercontent.com/98238090/212410220-69afb0c9-4481-473e-b35b-7515a9306345.PNG)
+
+![iTunesArtwork@2x](https://user-images.githubusercontent.com/98238090/212410740-b00a3a80-77ba-4e8b-85b4-86c83bc7c04f.png)
 
 
 
