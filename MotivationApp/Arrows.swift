@@ -21,7 +21,7 @@ struct ArrowShape : Shape {
 }
 
 struct Arrows: View {
-    private let arrowCount = 1
+    private let arrowCount = 2
     @State var scale:CGFloat = 1.0
     @State var fade:Double = 0.5
     @State var isActive : Bool = false
@@ -34,7 +34,7 @@ struct Arrows: View {
             HStack{
                 ForEach(0..<self.arrowCount) { i in
                     ArrowShape()
-                        .stroke(style: StrokeStyle(lineWidth: CGFloat(10),
+                        .stroke(style: StrokeStyle(lineWidth: CGFloat(8),
                                                    lineCap: .round,
                                                    lineJoin: .round ))
                         .foregroundColor(color)
