@@ -1,7 +1,8 @@
 # PositiveVibes
 
 
-![iTunesArtwork@2x](https://user-images.githubusercontent.com/98238090/212410740-b00a3a80-77ba-4e8b-85b4-86c83bc7c04f.png)
+![Icon-App-83 5x83 5@2x](https://user-images.githubusercontent.com/98238090/212410844-8bd230b8-c1de-4a96-a8e8-dff4c654383b.png)
+
 
 
 
