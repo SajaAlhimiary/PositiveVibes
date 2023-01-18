@@ -33,5 +33,6 @@ https://user-images.githubusercontent.com/98238090/212405448-f5c64658-d343-4418-
 
 
 ## Challenge Summary:
-[Positive-Vibes_ToTheClouds_ADATWQ_2022_2023.pdf](https://github.com/SajaAlhimiary/PositiveVibes/files/10443164/Positive-Vibes_ToTheClouds_ADATWQ_2022_2023.pdf)
+<img width="1496" alt="Screenshot 2023-01-18 at 10 17 37 AM" src="https://user-images.githubusercontent.com/81257375/213107946-4535fc7c-609a-4180-892f-6eea047e050e.png">
+
 
